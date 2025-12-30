@@ -1,0 +1,14 @@
+{
+  "name": "@ulysses-os/hive-mind",
+  "version": "1.0.0",
+  "description": "Central orchestration layer for ULYSSES-OS distributed intelligence",
+  "main": "dist/hive-controller.js",
+  "scripts": {
+    "start": "ts-node hive-controller.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ulysses-os/ops-agent": "^1.0.0",
+    "@ulysses-os/ai-core": "^1.0.0"
+  }
+}
